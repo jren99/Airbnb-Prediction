@@ -36,3 +36,6 @@ Optimal Classification Trees method is used to interpret clusters.
 ## Impact
 - Hosts can use the OCT to understand what makes a property similar to the one they own. The OCT also helps determine how availability varies between different neighborhoods
 - The XGBoost model builtt at the overall level can be used to predict prices for listing based on their properties, and can inform hosts when setting prices. It also indicates guest willingness to pay based on the different features like availability
+
+
+For more results, please check the 'ML Presentation.pdf'.
