@@ -19,3 +19,14 @@ Clustering:
 - We cluster the entire data set 
 - We extract data for each cluster and divide the data randomly into training (80%) and test (20%) sets
 
+### Interpretable Clusters
+Optimal Classification Trees method is used to interpret clusters. 
+
+|  Cluster  |                                                                                                                                                       Feature                                                                                                                                                      |
+|:---------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Cluster 1 | Mid-low neighborhoods, offering private or shared rooms                                                                                                                                                                                                                                                            |
+| Cluster 2 | Listings in very expensive neighborhood (Camden, Westminster, Kensington and Chelsea), that offer either private or shared rooms; AND listings that offer entire homes or are hotel rooms in expensive/middle/low cost neighborhoods but are booked for the most part of the year (available <42.5 days in a year) |
+| Cluster 3 | All other properties                                                                                                                                                                                                                                                                                               |
+| Cluster 4 | Listings offering entire homes or are hotel rooms that are generally available (availability >201 days)                                                                                                                                                                                                            |
+| Cluster 5 | Listings with private/shared rooms in mid-high/middle /low cost neighborhoods                                                                                                                                                                                                                                      |
+| Cluster 6 | Listings that offer entire homes or are hotel rooms in mid-high neighborhoods and but are booked for most part of the year (<42.5 days in last year), or are in other neighborhoods but have very high  availability (between 42 to 201 days in a year)                                                            |
