@@ -1,3 +1,5 @@
+This is part of the course project for MIT 15.095 Machine Learning via a Modern Optimization Lens.
+
 # Airbnb Lising Price Prediction
 ## Objective
 The objective of this project is to analyze the available data for the following:
