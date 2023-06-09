@@ -15,7 +15,7 @@ From Kaggle (www.kaggle.com/datasets/whenamancodes/london-uk-airbnb-open-data), 
 
 Price prediction at overall level:
 - We use stratified sampling to retrieve 20% of the data as testing data, ensuring good representation of neighborhood categories and room types in test data
-- We use stable regression to split the remaining 80% data into training data (60%) and test data (20%)
+- We use stable regression to split the remaining 80% data into training data (60%) and validation data (20%)
 
 Clustering:
 - We cluster the entire data set 
